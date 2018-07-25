@@ -1,0 +1,31 @@
+{
+  "name": "tiendanube/gtinvalidation",
+  "type": "library",
+  "description": "Validates GTIN product codes.",
+  "keywords": ["gtin", "product codes"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ryan Blakemore",
+      "homepage": "https://github.com/ryanblak",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "GtinValidation\\": "src/GtinValidation"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GtinValidationTest\\": "tests/GtinValidationTest",
+      "Examples\\": "examples"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.*"
+  }
+}
